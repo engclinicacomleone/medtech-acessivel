@@ -60,7 +60,11 @@ Por esse motivo, o projeto deverá buscar:
 - reduzir dependências externas desnecessárias;
 - fornecer feedback adequado durante operações que dependam de conexão.
 
-Recursos de funcionamento offline ou sincronização posterior poderão ser estudados em etapas futuras.
+Sempre que uma operação envolver o preenchimento ou envio de informações relevantes, o projeto deverá considerar mecanismos que reduzam o risco de perda do registro em situações de conexão instável.
+
+Como possibilidade conceitual, poderão ser avaliados recursos como salvamento temporário local ou em rascunho e envio ou sincronização posterior quando a conexão estiver novamente disponível.
+
+A estratégia técnica definitiva será definida em etapas futuras, considerando aspectos de segurança, integridade dos dados e arquitetura da aplicação.
 
 ## Compatibilidade com hardware
 
@@ -102,6 +106,7 @@ Os seguintes requisitos deverão orientar as primeiras versões funcionais:
 | AC-08 | Operações frequentes deverão possuir fluxos simples e consistentes. |
 | AC-09 | A aplicação deverá evitar recursos desnecessariamente pesados. |
 | AC-10 | O desenvolvimento deverá considerar progressivamente as recomendações WCAG. |
+| AC-11 | O sistema deverá considerar mecanismos para reduzir a perda de informações durante interrupções de conexão em operações de registro. |
 
 ## Validação futura
 
