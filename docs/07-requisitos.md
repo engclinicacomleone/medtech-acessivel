@@ -176,11 +176,11 @@ A aplicação deverá evitar processamento e transferência de dados desnecessá
 
 A solução deverá considerar utilização em ambientes com conexões de internet limitadas ou instáveis.
 
-Critérios mensuráveis de desempenho serão definidos após a implementação inicial.
+Operações que envolvam o preenchimento de informações relevantes deverão considerar mecanismos para reduzir o risco de perda dos dados em caso de interrupção da conexão.
 
----
+Poderão ser avaliadas estratégias como salvamento temporário local ou em rascunho e sincronização posterior, conforme as decisões arquiteturais do projeto.
 
-## Segurança
+Critérios mensuráveis de desempenho e comportamento serão definidos após a implementação inicial.
 
 ### RNF-10 — Controle de acesso
 
