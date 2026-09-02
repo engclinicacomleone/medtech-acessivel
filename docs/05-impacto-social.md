@@ -8,6 +8,17 @@ O impacto social pretendido está relacionado principalmente à democratização
 
 Neste estágio, os impactos descritos representam objetivos e hipóteses do projeto. Resultados concretos somente poderão ser afirmados após implementação, utilização e validação da solução em ambientes adequados.
 
+## Efeitos operacionais esperados
+
+Além dos impactos de caráter organizacional e social, o projeto considera alguns efeitos operacionais que poderão ser avaliados em futuras etapas de validação.
+
+Entre os efeitos esperados estão:
+
+- redução do tempo necessário para localizar o histórico de intervenções de um equipamento;
+- melhoria do acompanhamento das atividades de manutenção, contribuindo para reduzir períodos de indisponibilidade associados à falta de acompanhamento ou informação.
+
+Esses efeitos representam hipóteses de resultado e deverão ser avaliados por meio de indicadores e comparação com uma linha de base quando houver uma versão funcional da plataforma.
+
 ## Impacto pretendido
 
 O projeto busca contribuir para uma gestão mais organizada, acessível e rastreável dos equipamentos médico-hospitalares.
